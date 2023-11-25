@@ -86,7 +86,7 @@ function SubModuleDefault({props}) {
         changesubmodule("home", false, 1)
         let delay = .25 * 1000
         setTimeout(() => {        
-            navigate(`/`);
+            navigate(`/retro-memories/`);
             changeHomePage(true, false)
             changenav('', props.waittime, delaybeforenavchange)
         }, delay)

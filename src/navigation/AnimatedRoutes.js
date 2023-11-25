@@ -16,7 +16,7 @@ function AnimatedRoutes() {
     return (
         <AnimatePresence>
             <Routes location={location} key={location.pathname}>
-                <Route path="/" element={<Home props={{delay:5}}/>} />
+                <Route path="/retro-memories/" element={<Home props={{delay:5}}/>} />
                 <Route path="/about" element={<About />} />
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/clients" element={<Clients />} />
