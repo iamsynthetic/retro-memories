@@ -9,7 +9,7 @@ function Future({props}) {
     const [showSection1, setShowSection1] = useState(false)
     const [showSection2, setShowSection2] = useState(false)
     const [isButtonDisabled, setButtonDisabled] = useState('button1'); 
-    const [bgimagename, setBgImageName] = useState('/images/sections/future-future-of-company.jpg');
+    const [bgimagename, setBgImageName] = useState('https://raw.githubusercontent.com/iamsynthetic/retro-memories/gh-pages/images/sections/future-future-of-company.jpg');
 
     const [menupos, setMenuPos] = useState(0)
     
@@ -108,7 +108,7 @@ function Future({props}) {
                     setShowSection0(true)
                     setShowSection1(false)
                     setShowSection2(false)
-                    switchBg('/images/sections/future-future-of-company.jpg')
+                    switchBg('https://raw.githubusercontent.com/iamsynthetic/retro-memories/gh-pages/images/sections/future-future-of-company.jpg')
                     setButtonDisabled('button1');
                     removeDisabledColor('button2')
                     removeDisabledColor('button3')
@@ -118,7 +118,7 @@ function Future({props}) {
                     setShowSection0(false)
                     setShowSection1(true)
                     setShowSection2(false)
-                    switchBg('/images/sections/future-future-of-ai.jpg')
+                    switchBg('https://raw.githubusercontent.com/iamsynthetic/retro-memories/gh-pages/images/sections/future-future-of-ai.jpg')
                     setButtonDisabled('button2');
                     removeDisabledColor('button1')
                     removeDisabledColor('button3')
@@ -128,7 +128,7 @@ function Future({props}) {
                     setShowSection0(false)
                     setShowSection1(false)
                     setShowSection2(true)
-                    switchBg('/images/sections/future-future-of-tech.jpg')
+                    switchBg('https://raw.githubusercontent.com/iamsynthetic/retro-memories/gh-pages/images/sections/future-future-of-tech.jpg')
                     setButtonDisabled('button3');
                     removeDisabledColor('button1')
                     removeDisabledColor('button2')

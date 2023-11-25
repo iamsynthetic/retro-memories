@@ -5,7 +5,7 @@ import { useContext, useEffect, useState } from "react"
 
 function Partners({props}) {
 
-    const [bgimagename, setBgImageName] = useState('/images/sections/partners.jpg');
+    const [bgimagename, setBgImageName] = useState('https://raw.githubusercontent.com/iamsynthetic/retro-memories/gh-pages/images/sections/partners.jpg');
 
     let pretitle = 'OUR'
     let title = 'PARTNERS'

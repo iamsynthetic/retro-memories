@@ -8,7 +8,7 @@ function Projects({props}) {
     const [showSection0, setShowSection0] = useState(true)
     const [showSection1, setShowSection1] = useState(false)
     const [isButtonDisabled, setButtonDisabled] = useState('button1'); 
-    const [bgimagename, setBgImageName] = useState('/images/sections/projects-creating-creation.jpg');
+    const [bgimagename, setBgImageName] = useState('https://raw.githubusercontent.com/iamsynthetic/retro-memories/gh-pages/images/sections/projects-creating-creation.jpg');
     const [menupos, setMenuPos] = useState(0)
     
     let whichsection = []
@@ -103,7 +103,7 @@ function Projects({props}) {
                 case 0:
                     setShowSection0(true)
                     setShowSection1(false)
-                    switchBg('/images/sections/projects-creating-creation.jpg')
+                    switchBg('https://raw.githubusercontent.com/iamsynthetic/retro-memories/gh-pages/images/sections/projects-creating-creation.jpg')
                     setButtonDisabled('button1');
                     removeDisabledColor('button2')
                     renderSection()
@@ -111,7 +111,7 @@ function Projects({props}) {
                 case 1:
                     setShowSection0(false)
                     setShowSection1(true)
-                    switchBg('/images/sections/projects-the-smartest-ai.jpg')
+                    switchBg('https://raw.githubusercontent.com/iamsynthetic/retro-memories/gh-pages/images/sections/projects-the-smartest-ai.jpg')
                     setButtonDisabled('button2');
                     removeDisabledColor('button1')
                     renderSection()

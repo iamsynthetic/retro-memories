@@ -5,7 +5,7 @@ import { useContext, useEffect, useState } from "react"
 
 function Clients({props}) {
 
-    const [bgimagename, setBgImageName] = useState('/images/sections/clients.jpg');
+    const [bgimagename, setBgImageName] = useState('https://raw.githubusercontent.com/iamsynthetic/retro-memories/gh-pages/images/sections/clients.jpg');
 
     let pretitle = 'OUR'
     let title = 'CLIENTS'

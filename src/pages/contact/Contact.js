@@ -5,7 +5,7 @@ import { useContext, useEffect, useState } from "react"
 
 function Contact({props}) {
 
-    const [bgimagename, setBgImageName] = useState('/images/sections/contact.jpg');
+    const [bgimagename, setBgImageName] = useState('https://raw.githubusercontent.com/iamsynthetic/retro-memories/gh-pages/images/sections/contact.jpg');
 
     let title = 'CONTACT'
     let bodycopy0 = "If you have any inquires, comments or suggestions, please don't hesitate contacting us using the information below. \n \nWe are located in British Columbia, Canada"
