@@ -9,7 +9,7 @@ function About({props}) {
     const [showSection1, setShowSection1] = useState(false)
     const [showSection2, setShowSection2] = useState(false)
     const [isButtonDisabled, setButtonDisabled] = useState('button1'); 
-    const [bgimagename, setBgImageName] = useState('/images/sections/about-who-we-are.jpg');
+    const [bgimagename, setBgImageName] = useState('https://raw.githubusercontent.com/iamsynthetic/retro-memories/gh-pages/images/sections/about-who-we-are.jpg');
 
     const [menupos, setMenuPos] = useState(0)
     
@@ -107,7 +107,7 @@ function About({props}) {
                     setShowSection0(true)
                     setShowSection1(false)
                     setShowSection2(false)
-                    switchBg('/images/sections/about-who-we-are.jpg')
+                    switchBg('https://raw.githubusercontent.com/iamsynthetic/retro-memories/gh-pages/images/sections/about-who-we-are.jpg')
                     setButtonDisabled('button1');
                     removeDisabledColor('button2')
                     removeDisabledColor('button3')
@@ -117,7 +117,7 @@ function About({props}) {
                     setShowSection0(false)
                     setShowSection1(true)
                     setShowSection2(false)
-                    switchBg('/images/sections/about-our-approach.jpg')
+                    switchBg('https://raw.githubusercontent.com/iamsynthetic/retro-memories/gh-pages/images/sections/about-our-approach.jpg')
                     setButtonDisabled('button2');
                     removeDisabledColor('button1')
                     removeDisabledColor('button3')
@@ -127,7 +127,7 @@ function About({props}) {
                     setShowSection0(false)
                     setShowSection1(false)
                     setShowSection2(true)
-                    switchBg('/images/sections/about-our-vision.jpg')
+                    switchBg('https://raw.githubusercontent.com/iamsynthetic/retro-memories/gh-pages/images/sections/about-our-vision.jpg')
                     setButtonDisabled('button3');
                     removeDisabledColor('button1')
                     removeDisabledColor('button2')

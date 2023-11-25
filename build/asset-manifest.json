@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/retro-memories/static/css/main.20adba5e.css",
+    "main.js": "/retro-memories/static/js/main.d9f81654.js",
+    "static/js/787.17cce617.chunk.js": "/retro-memories/static/js/787.17cce617.chunk.js",
+    "static/media/panel1.jpg": "/retro-memories/static/media/panel1.d001e9c295595571502b.jpg",
+    "static/media/thumb1.jpg": "/retro-memories/static/media/thumb1.a9ba1b998b6ef78a778f.jpg",
+    "index.html": "/retro-memories/index.html",
+    "main.20adba5e.css.map": "/retro-memories/static/css/main.20adba5e.css.map",
+    "main.d9f81654.js.map": "/retro-memories/static/js/main.d9f81654.js.map",
+    "787.17cce617.chunk.js.map": "/retro-memories/static/js/787.17cce617.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20adba5e.css",
+    "static/js/main.d9f81654.js"
+  ]
+}
