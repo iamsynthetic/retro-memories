@@ -1,0 +1,371 @@
+$teal: #03FFFA;
+$purple: #260D40;
+$pink: #BF267A;
+$yellow: #FFD62A;
+$white: #ECEBEB;
+$light-grey: #CECECE;
+$mid-grey: #A7A5A6;
+$dark-grey: #454345;
+$charcoal: #292728;
+
+.txt1{
+    text-align:center;
+    color:$teal;
+    height:100px;
+}
+
+.space
+{
+    padding-top:100px;
+}
+
+.container
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: calc(100vh - 200px);
+    width:100vw;
+    position:relative;
+}
+
+.alllayers
+{
+    position:absolute;
+}
+
+/* / / / / / / / / / / / / INTERFACE / / / / / / / / / / / */
+.blackbgleftlayer2
+{
+    margin-top: -30px;
+    margin-left: -852px;
+}
+
+.blackbgrightlayer2
+{
+    margin-top: 0px;
+    margin-left: 840px;
+}
+
+.blackbgbottomlayer
+{
+    margin-top: 675px;
+    margin-left: -450px;
+}
+.blackbgtoplayer
+{
+    margin-top: -660px;
+    margin-left: 400px;
+}
+
+.blackbgbottomrightlayer
+{
+    margin-top: 680px;
+    margin-left: 530px;
+}
+
+/* / / / / / / / / / / / / DETAILS / / / / / / / / / / / / */
+.rectangle1
+{
+    display:flex;
+    margin-left: -925px;
+    margin-top: -730px;
+}
+.rectangle2
+{
+    display:flex;
+    margin-left: 980px;
+    margin-top: -730px;
+}
+.rectangle3
+{
+    display:flex;
+    margin-left: 980px;
+    margin-top: -560px;
+}
+.rectangle4
+{
+    display:flex;
+    margin-left: 980px;
+    margin-top: 650px;
+}
+.outlineverticalrect
+{
+    display:flex;
+    margin-left: -140px;
+    margin-top: -765px;
+}
+.diagonalline
+{
+    display:flex;
+    margin-left: 820px;
+    margin-top: -770px;
+}
+.rotateddiagonalline
+{
+    display:flex;
+    margin-left: 1070px;
+    margin-top: -200px;
+    transform: rotate(90deg);
+}
+.dotgrid
+{
+    display:flex;
+    margin-left: 1092px;
+    margin-top: -626px;
+}
+.horizontalline
+{
+    display:flex;
+    margin-left:945px;
+    margin-top:-685px;
+}
+.asquare
+{
+    display:flex;
+    margin-left: 1065px;
+    margin-top: 420px;
+    transform: rotate(90deg);
+}
+.asquarespace
+{
+    padding-right:7px;
+}
+.verticlerectangles
+{
+    display:flex;
+    margin-left: 500px;
+    margin-top: 734px;
+}
+.rectanglefill
+{
+    display:flex;
+    margin-left: 440px;
+    margin-top: 658px;
+}
+.radar
+{
+    display:flex;
+    margin-left:80px;
+    margin-top: 728px;
+}
+.radarspace
+{
+    padding-right:7px;
+}
+.greyrectangle1
+{
+    display:flex;
+    margin-left: -1092px;
+    margin-top: -200px;
+    transform: rotate(90deg);
+}
+.greyrectangle2
+{
+    display:flex;
+    margin-left: -1092px;
+    margin-top: 120px;
+    transform: rotate(90deg);
+}
+.greyrectangle3
+{
+    display:flex;
+    margin-left: -1092px;
+    margin-top: 260px;
+    transform: rotate(90deg);
+}
+.greyrectangle4
+{
+    display:flex;
+    margin-left: -1092px;
+    margin-top: 330px;
+    transform: rotate(90deg);
+}
+.rectangledotspace
+{
+    padding-right:7px;
+}
+.greyrectangledot
+{
+    display:flex;
+    margin-left: -1092px;
+    margin-top: -280px;
+    transform: rotate(90deg);
+}
+.greyrectangledotspace
+{
+    padding-right:20px;
+}
+.greyrectangledot1
+{
+    display:flex;
+    margin-left: -1092px;
+    margin-top: -30px;
+    transform: rotate(90deg);
+}
+.greyrectangledot2
+{
+    display:flex;
+    margin-left: -1092px;
+    margin-top: 90px;
+    transform: rotate(90deg);
+}
+.greyrectangledot3
+{
+    display:flex;
+    margin-left: -1092px;
+    margin-top: 116px;
+    transform: rotate(90deg);
+}
+.greyrectangledot4
+{
+    display:flex;
+    margin-left: -1092px;
+    margin-top: 320px;
+    transform: rotate(90deg);
+}
+.angleline
+{
+    display:flex;
+    margin-left: 960px;
+    margin-top: 0px;
+}
+.angleline2
+{
+    display:flex;
+    margin-left: -348px;
+    margin-top: -634px;
+    transform: rotate(90deg);
+}
+.linedot
+{
+    display:flex;
+    margin-left: -1005px;
+    margin-top: -70px;
+}
+.circlering
+{
+    display:flex;
+    margin-left: 350px;
+    margin-top: -669px;
+}
+.circleringspace
+{
+    padding-right:10px;
+}
+.verticalline
+{
+    display:flex;
+    margin-left: 480px;
+    margin-top: -669px;
+}
+.verticallinegspace
+{
+    padding-right:100px;
+}
+.connectionloop
+{
+    display:flex;
+    margin-left: 625px;
+    margin-top: -669px;
+}
+.mainnav
+{
+    display:flex;
+    margin-left: -480px;
+    margin-top: -650px;
+}
+.maincontentcontainer
+{
+    display:flex;
+    flex-direction: column;
+    height: 570px;
+    width: 900px;
+    margin-left:-5px;
+}
+.submodulegroup
+{
+    display:flex;
+}
+
+.submodules
+{
+    display:flex;
+    height:140px;
+    gap: 10px;
+    margin-top:10px;
+    position:absolute;
+}
+.submoduledefault1
+{
+    width:50%;
+}
+.submoduledefault2
+{
+    width:50%;
+}
+.submodulecontainer
+{
+    height:137px;
+    width:100%;
+}
+
+
+// @media (max-width: 575.98px) {  
+
+// }
+
+// Small devices (landscape phones, less than 768px)
+// @media (max-width: 767.98px) { 
+
+// }
+
+// Medium devices (tablets, less than 992px)
+// @media (min-width: 1149px) {
+//     .container
+//     {
+//         display: none;
+//     }
+
+//     .mobilecontainer
+//     {
+//         display:flex;
+//     }
+// }
+
+// // Large devices (desktops, less than 1200px)
+// @media (max-width: 1150px) {  
+//     .container
+//     {
+//         display:flex;
+//     }
+
+//     .mobilecontainer
+//     {
+//         display:none;
+//     }
+// }
+
+
+@media (max-width: 1149px) {
+    .container
+    {
+        display:none;
+    }
+    .mobilecontainer
+    {
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height: calc(100vh - 200px);
+        width:100vw;
+        position:relative;
+    }
+}
+
+@media (min-width: 1150px){
+    .mobilecontainer
+    {
+        display:none;
+    }
+}

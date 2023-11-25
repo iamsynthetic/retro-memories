@@ -1,0 +1,151 @@
+$teal: #03FFFA;
+$purple: #260D40;
+$pink: #BF267A;
+$yellow: #FFD62A;
+$white: #ECEBEB;
+$light-grey: #CECECE;
+$mid-grey: #A7A5A6;
+$dark-grey: #454345;
+$charcoal: #292728;
+
+
+.container
+{
+    display:flex;
+    width:900px;
+    height:550px;
+}
+
+.bgcontainer
+{
+    width: 900px;
+    height:550px;
+    margin-top:10px;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+.allthecontent
+{
+    display:flex;
+    width:100%;
+    margin-top:350px;
+    flex-direction:column;
+}
+
+.row1
+{
+    display:flex;
+    flex-direction:column;
+    width:280px;
+    height:100px;
+    text-align: left;
+    margin-left:15px;
+    position:relative;
+    
+}
+
+.row2
+{
+    display:flex;
+    flex-direction:row;
+    height:100px;
+    position:relative;
+    margin-top:-25px;
+}
+.subrow1
+{
+    display:flex;
+    flex-direction:column;
+    width:220px;
+    height:100px;
+    position:relative;
+    text-align:left;
+}
+.subrow2
+{
+    display:flex;
+    flex:1;
+    height:100px;
+    position:relative;
+}
+
+.pretitle
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:700;
+    font-size:1.125rem;
+    margin-bottom: auto;
+    margin-left:35px;
+    color:$white;      
+}
+
+.title
+{
+    margin-top: auto; 
+    font-size:3rem;
+    margin-top:-10px;
+    color:$white;
+}
+
+
+.thecontent
+{
+    display:flex;
+    flex-direction: column;
+    margin-top: 348px;
+    margin-right:10px;
+    width: 100%;
+    color:white;
+    background-color:red;
+}
+
+.themenucontent
+{
+    display:flex;
+    flex-direction:column;
+    background-color:green;
+}
+
+.therow
+{
+    display:flex;
+    justify-content:flex-start;
+    padding-left:15px;
+    z-index:20
+}
+
+.menugroup
+{
+    display:flex;
+    flex-direction:row;
+    margin-top: -48px;
+    margin-left: -18px;
+}
+
+.menuitem
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:700;
+    font-size:1rem;
+    padding-left:20px;
+    padding-top:14px;
+    cursor:pointer;
+    color:$white;
+}
+
+.disabledButton
+{
+    color:$teal;
+}
+
+.cssfix
+{
+    display:flex;
+    text-align:left;
+    white-space: pre-wrap;
+    color:$white;
+}

@@ -1,0 +1,42 @@
+$teal: #03FFFA;
+$purple: #260D40;
+$pink: #BF267A;
+$yellow: #FFD62A;
+$white: #ECEBEB;
+$light-grey: #CECECE;
+$mid-grey: #A7A5A6;
+$dark-grey: #454345;
+$charcoal: #292728;
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+.container
+{
+    width:100%;
+    background-color:$white;
+}
+
+.closebutton
+{
+    display:flex;
+    justify-content: flex-end;
+    padding-right:20px;
+    padding-top:20px;
+    font-size:1.25rem;
+    cursor:pointer;
+}
+.showclosebutton
+{
+    font-size:1.25rem;
+    margin-left:870px;
+    cursor:pointer;
+    visibility: visible
+}
+
+.dontshowclosebutton
+{
+    font-size:1.25rem;
+    margin-left:870px;
+    cursor:pointer;
+    visibility: hidden
+}

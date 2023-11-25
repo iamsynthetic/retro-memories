@@ -1,0 +1,57 @@
+/*
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Ubuntu+Condensed&display=swap');
+font-family: 'Open Sans', sans-serif;
+font-family: 'Ubuntu Condensed', sans-serif;
+
+.625 = 10px
+.75 = 12px
+0.875 = 14px
+1 = 16px
+*/
+/*
+colours:
+teal - #03FFFA
+purple - #260D40
+pink - #BF267A
+yellow - #FFD62A
+white - #ECEBEB
+light grey - #CECECE
+mid grey - #A7A5A6
+dark grey - #454345
+charcoal - #292728
+*/
+
+// $bg-color: #011F26;
+// $title-color:#72E5F2;
+// $highlight: #F25C05;
+// $base: #0CC8F2;
+// $dark-teal: #035159;
+
+$teal: #03FFFA;
+$purple: #260D40;
+$pink: #BF267A;
+$yellow: #FFD62A;
+$white: #ECEBEB;
+$light-grey: #CECECE;
+$mid-grey: #A7A5A6;
+$dark-grey: #454345;
+$charcoal: #292728;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700');
+
+.container{
+    display:flex;
+}
+.connection{
+    flex:1;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:700;
+    font-size:.625rem;
+    color:black;
+}
+.loop{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:300;
+    font-size:.625rem;
+    color:black;
+}

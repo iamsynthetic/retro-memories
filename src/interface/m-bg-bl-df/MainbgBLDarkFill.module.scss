@@ -1,0 +1,81 @@
+$dark: #011F26;
+$dark-teal: #035159;
+$dark-blue: #0CC8F2;
+$teal:#72E5F2;
+$orange: #F25C05;
+
+.dark{
+    fill:$dark;
+}
+.dark-teal{
+    fill:$dark-teal;
+}
+.dark-blue{
+    fill:$dark-blue;
+}
+.teal{
+    fill:$teal;
+}
+.orange{
+    fill:$orange;
+}
+
+.container
+{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.circle {
+    position:absolute;
+}
+
+.thestroke {
+    overflow: visible;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    rotate:-90deg;
+}
+
+.bg{
+    background-color:white;
+}
+
+#myclippath{
+    width:308px;
+    height:500px;
+}
+
+.theline
+{
+    position:relative;
+    left:400px;
+    top:-100px;
+}
+.bottomhor
+{
+    position:relative;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    width: 100px;
+    transform-origin: left; 
+    top:1px;
+    left:-100px;
+}
+
+.diag{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    width: 50px;
+    transform: rotate(-45deg);
+    transform-origin: left;
+}
+
+.tophor
+{
+    position:relative;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    width: 100px;
+    transform-origin: left; 
+    top:-37px;
+    left:35px;
+}

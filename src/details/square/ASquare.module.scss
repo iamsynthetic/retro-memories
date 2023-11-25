@@ -1,0 +1,40 @@
+$teal: #03FFFA;
+$purple: #260D40;
+$pink: #BF267A;
+$yellow: #FFD62A;
+$white: #ECEBEB;
+$light-grey: #CECECE;
+$mid-grey: #A7A5A6;
+$dark-grey: #454345;
+$charcoal: #292728;
+
+.isnotvisible 
+{
+    display:visible;
+}
+
+.isvisible {
+    display:none;
+}
+
+.thesquare
+{
+    background: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 0px;
+    outline: 1px solid black;
+    opacity:0;
+}
+
+.hoversquare
+{
+    border-radius: 25px;
+    background: $purple;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;
+    // position:absolute;
+    z-index:3000;
+    opacity:.5
+}

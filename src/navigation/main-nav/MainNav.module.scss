@@ -1,0 +1,44 @@
+$teal: #03FFFA;
+$purple: #260D40;
+$pink: #BF267A;
+$yellow: #FFD62A;
+$white: #ECEBEB;
+$light-grey: #CECECE;
+$mid-grey: #A7A5A6;
+$dark-grey: #454345;
+$charcoal: #292728;
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+.mainnav{
+    display:flex;
+}
+.mainnav li {
+    list-style-type: none;
+}
+.mainnavbtn{
+    flex:1;
+    padding-left:25px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size:1rem;
+    color:$charcoal;
+    cursor:pointer;
+}
+.thelink
+{
+    text-decoration:none;
+    color:$charcoal;
+    cursor:pointer;
+}
+.nolink
+{
+    text-decoration:none;
+    color:$teal;
+    cursor:pointer;
+}
+.selected 
+{
+    text-decoration:none;
+    color:$teal;
+    cursor:pointer;
+}

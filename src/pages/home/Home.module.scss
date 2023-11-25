@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Ubuntu+Condensed&display=swap');
+
+$teal: #03FFFA;
+$purple: #260D40;
+$pink: #BF267A;
+$yellow: #FFD62A;
+$white: #ECEBEB;
+$light-grey: #CECECE;
+$mid-grey: #A7A5A6;
+$dark-grey: #454345;
+$charcoal: #292728;
+
+
+.container
+{
+    width: 900px;
+    height:410px;
+}
+
+.bgcontainer
+{
+    width: 900px;
+    height:410px;
+    margin-top:10px;
+    background-image: url('../../../public/images/home/panel1.jpg');
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+.contentcontainer
+{
+    display:flex;
+    opacity:1;
+    width:50%;
+    height:100%;
+    position:relative;
+}
+
+.col
+{
+    display:flex;
+    flex-direction: row;
+    padding:10px;
+}
+
+.title
+{
+    margin-top:160px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing:-3px;
+    font-weight:700;
+    font-size:6rem;
+    color:$yellow;
+    cursor:pointer;
+    position:relative;
+    rotate: -14deg;
+    margin-top:124px;
+    margin-left:68px;
+}
+
+.pinkletter
+{
+    color:$pink;
+}

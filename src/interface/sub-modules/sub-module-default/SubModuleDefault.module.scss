@@ -1,0 +1,136 @@
+$teal: #03FFFA;
+$purple: #260D40;
+$pink: #BF267A;
+$yellow: #FFD62A;
+$white: #ECEBEB;
+$light-grey: #CECECE;
+$mid-grey: #A7A5A6;
+$dark-grey: #454345;
+$charcoal: #292728;
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+.container
+{
+    width:50%;
+}
+
+.title
+{
+    display: flex;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1rem;
+    color:$charcoal;
+    background: rgba(206, 206, 206, .5);
+    height:24px;
+    text-align:left;
+    align-items: center;
+    padding-left:10px;
+}
+
+.subline
+{
+    background: rgba(206, 206, 206, .5);
+    margin-top:3px;
+    height:3px;
+    width:100%;
+}
+
+.contentarea
+{
+    display:flex;
+    flex-direction:row;
+    height:110px;
+}
+
+.module1col1
+{
+    display:flex;
+    flex-direction:column;
+    margin-top:10px;
+    padding-left:10px;
+}
+
+.module2col1
+{
+    display:flex;
+    width:100px;
+    margin-top:12px;
+}
+
+.module2col2
+{
+    display:flex;
+    flex-direction:column;
+    flex:1;
+    margin-top:10px;
+}
+
+.contentimage
+{
+    width: 80px; 
+    height: 80px; 
+    background-image: url("../../../../public/images/thumb1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: $light-grey; 
+}
+.contenttitle
+{
+    display: flex;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1rem;
+    color:$charcoal;
+    text-align:left;
+}
+.contentbody
+{
+    display: flex;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 0.875rem;
+    color:$charcoal;
+    text-align:left;
+}
+.contentlink
+{
+    display:flex;
+    align-self: flex-start;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 0.875rem;
+    color:$charcoal;
+    text-align:left;
+    margin-top:6px;
+    cursor:pointer;
+}
+.contentlink1
+{
+    display:flex;
+}
+.contentlink2
+{
+    display:flex;
+}
+.expandbuttoncontainer
+{
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 4px;
+}
+.expandbutton
+{
+    display: flex;
+    justify-content:flex-end;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: .875rem;
+    margin-right:0px;
+    margin-top: -3px;
+    width:70px;
+    cursor:pointer;
+}
+.expandarrow
+{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: .75rem;
+    margin-left:6px;
+}

@@ -1,0 +1,67 @@
+$teal: #03FFFA;
+$purple: #260D40;
+$pink: #BF267A;
+$yellow: #FFD62A;
+$white: #ECEBEB;
+$light-grey: #CECECE;
+$mid-grey: #A7A5A6;
+$dark-grey: #454345;
+$charcoal: #292728;
+
+
+.container
+{
+    display:flex;
+    width:900px;
+    height:550px;
+}
+
+.bgcontainer
+{
+    width: 900px;
+    height:550px;
+    margin-top:10px;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+.contentcontainer
+{
+    display:flex;
+    justify-content:flex-start;
+    width:900px;
+    height:550px;
+    position:relative;
+}
+
+.thecontent
+{
+    display:flex;
+    flex-direction: column;
+    margin-top: 105px;
+    margin-left:35px;
+    flex:0 0 400px
+}
+
+.therow
+{
+    display:flex;
+    z-index:20
+}
+
+.title
+{
+    margin-top: auto; 
+    font-size:3rem;
+    margin-top:-5px;
+}
+
+.cssfix
+{
+    display:flex;
+    text-align:left;
+    white-space: pre-wrap;
+    margin-top: -30px;
+}
