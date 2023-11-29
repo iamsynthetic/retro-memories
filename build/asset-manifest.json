@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/retro-memories/static/css/main.6d8c4104.css",
-    "main.js": "/retro-memories/static/js/main.a30a3805.js",
+    "main.js": "/retro-memories/static/js/main.4f47275f.js",
     "static/js/787.17cce617.chunk.js": "/retro-memories/static/js/787.17cce617.chunk.js",
     "static/media/thumb1.jpg": "/retro-memories/static/media/thumb1.a9ba1b998b6ef78a778f.jpg",
     "index.html": "/retro-memories/index.html",
     "main.6d8c4104.css.map": "/retro-memories/static/css/main.6d8c4104.css.map",
-    "main.a30a3805.js.map": "/retro-memories/static/js/main.a30a3805.js.map",
+    "main.4f47275f.js.map": "/retro-memories/static/js/main.4f47275f.js.map",
     "787.17cce617.chunk.js.map": "/retro-memories/static/js/787.17cce617.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d8c4104.css",
-    "static/js/main.a30a3805.js"
+    "static/js/main.4f47275f.js"
   ]
 }
